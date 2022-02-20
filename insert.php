@@ -12,7 +12,7 @@
             die("ERROR: Could not connect with database. " 
                 . mysqli_connect_error());
         }
-     
+         
         If ($_REQUEST['password'] != $_REQUEST['pass']){
             
             $_SESSION['confirmmsg'] = "Please enmter same password";
